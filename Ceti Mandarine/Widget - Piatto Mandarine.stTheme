@@ -2,12 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>author</key> 
-	<string>Ian Hill / uonick</string> 
+	<key>author</key>
+	<string>Ian Hill / uonick</string>
 	<key>comment</key>
-	<string>A widget theme for the UI components of the Piatto Mandarine theme</string>
+	<string>A widget theme for the UI components of the Ceti Mandarine theme</string>
 	<key>name</key>
-	<string>Piatto Mandarine - Widget Theme</string>
+	<string>Ceti Mandarine - Widget Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>

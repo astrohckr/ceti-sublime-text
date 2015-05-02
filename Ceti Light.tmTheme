@@ -11,7 +11,7 @@
 	<key>link</key>
 	<string>http:&#x2f;&#x2f;volkerotto.net</string>
 	<key>name</key>
-	<string>Piatto Light</string>
+	<string>Ceti Light</string>
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
@@ -460,7 +460,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.light.piatto_light</string>
+	<string>theme.light.Ceti_light</string>
 	<key>comment</key>
 	<string>Based on BR4CKETS</string>
 </dict>

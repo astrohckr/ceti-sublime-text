@@ -5,9 +5,9 @@
 	<key>author</key>
 	<string>Ian Hill</string>
 	<key>comment</key>
-	<string>A widget theme for the UI components of the Piatto Light theme.</string>
+	<string>A widget theme for the UI components of the Ceti Light theme.</string>
 	<key>name</key>
-	<string>Piatto Light - Widget Theme</string>
+	<string>Ceti Light - Widget Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>

@@ -7,7 +7,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Piatto Dark</string>
+	<string>Ceti Dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -406,7 +406,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.piatto_dark</string>
+	<string>theme.dark.Ceti_dark</string>
 	<key>author</key>
 	<string>Samuel Rafo</string>
 </dict>
