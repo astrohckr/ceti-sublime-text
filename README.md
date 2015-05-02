@@ -55,9 +55,7 @@ Ceti Theme has the ability to use folder icons in the sidebar.
 
 If you'd like to use folder icons in the sidebar instead of the regular arrows, add the following custom setting to your `Settings - User` file:
 
-    "Ceti_folder_icons": true
-
-![Ceti Folder Icons](https://raw.github.com/samuelrafo/Ceti/master/images/Ceti_folder_icons.png)
+    "ceti_folder_icons": true
 
 ### Overlay Scrollbars
 
