@@ -1,16 +1,12 @@
 # Ceti Theme
 
- Ceti is a very simple flat style theme for Sublime Text 2 and Sublime Text 3.
+This is designed to match the [Ceti-2](https://github.com/horst3180/Ceti-2-theme) GTK+ theme by [horst3180](https://horst3180.deviantart.com).
 
-Based on Soda Theme by Ian Hill [http://buymeasoda.com/](http://buymeasoda.com/)
+This is a mod of [piatto](https://github.com/samuelrafo/piatto) by [samuelrafo](https://github.com/samuelrafo).
 
 ## Design
 
-![Ceti Theme](https://raw.github.com/samuelrafo/Ceti/master/images/Ceti_light.png)
-
-![Ceti Dark Theme](https://raw.github.com/samuelrafo/Ceti/master/images/Ceti_dark.png)
-
-![Ceti Mandarine Theme](https://raw.github.com/samuelrafo/Ceti/master/images/Ceti_mandarine.png)
+![Ceti Theme](https://raw.github.com/hckr/ceti-sublime-text/master/images/ceti.png)
 
 ## Installation
 
