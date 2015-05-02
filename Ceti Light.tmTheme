@@ -11,7 +11,7 @@
 	<key>link</key>
 	<string>http:&#x2f;&#x2f;volkerotto.net</string>
 	<key>name</key>
-	<string>Ceti</string>
+	<string>Ceti Light</string>
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
@@ -27,7 +27,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff</string>
+				<string>#EEEEEE</string>
 				<key>caret</key>
 				<string>#969696</string>
 				<key>foreground</key>
@@ -384,6 +384,17 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text base</string>
+			<key>scope</key>
+			<string>text</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
