@@ -6,7 +6,7 @@ Based on Soda Theme by Ian Hill [http://buymeasoda.com/](http://buymeasoda.com/)
 
 ## Design
 
-![Ceti Light Theme](https://raw.github.com/samuelrafo/Ceti/master/images/Ceti_light.png)
+![Ceti Theme](https://raw.github.com/samuelrafo/Ceti/master/images/Ceti_light.png)
 
 ![Ceti Dark Theme](https://raw.github.com/samuelrafo/Ceti/master/images/Ceti_dark.png)
 
@@ -34,18 +34,18 @@ To configure Sublime Text to use the theme, follow the instructions below for yo
 ### Sublime Text 2
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Ceti Light.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Ceti.sublime-theme"`
 
 **Example Sublime Text 2 User Settings**
 
     {
-        "theme": "Ceti Light.sublime-theme"
+        "theme": "Ceti.sublime-theme"
     }
 
 ### Sublime Text 3
 
 * Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Ceti Light 3.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Ceti 3.sublime-theme"`
 
 **Example Sublime Text 3 User Settings**
 
@@ -89,6 +89,6 @@ If you'd like to use the overlay scrollbar, add the following custom setting to 
 
 ```javascript
 {
-    "color_scheme": "Packages/Theme - Ceti/Ceti Light.tmTheme"
+    "color_scheme": "Packages/Theme - Ceti/Ceti.tmTheme"
 }
 ```
