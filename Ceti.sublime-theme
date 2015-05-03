@@ -22,7 +22,7 @@
         "tab_overlap": 5,
         "tab_width": 180,
         "tab_min_width": 45,
-        "tab_height": 28,
+        "tab_height": 33,
         "mouse_wheel_switch": false
     },
     {
@@ -86,7 +86,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive.png",
         "layer0.opacity": 0.85
     },
     {
@@ -141,8 +141,24 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "attributes": ["pressed"],
+        "attributes": ["pressed", "selected"],
         "layer0.texture": "Theme - Ceti/Ceti/tab-close-pressed.png"
+    },
+
+    // Tab close button hover (inactive tab)
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-hover.png"
+    },
+
+    // Tab close button pressed (inactive tab)
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-pressed.png"
     },
 
 //
