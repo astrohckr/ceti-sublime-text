@@ -27,7 +27,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#EEEEEE</string>
+				<string>#EEE</string>
 				<key>caret</key>
 				<string>#969696</string>
 				<key>foreground</key>
@@ -387,15 +387,15 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>Text base</string>
-			<key>scope</key>
-			<string>text</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FFFFFF</string>
-			</dict>
+		  <key>name</key>
+		  <string>Source base background</string>
+		  <key>scope</key>
+		  <string>text, source</string>
+		  <key>settings</key>
+		  <dict>
+		  <key>background</key>
+		  <string>#FDFDFD</string>
+		  </dict>
 		</dict>
 		<dict>
 			<key>name</key>
