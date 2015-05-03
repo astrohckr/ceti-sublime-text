@@ -86,7 +86,7 @@
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8, 8]
     },
-    // Tab close (inactive) hover
+    // Tab close (inactive)
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
