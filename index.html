@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ceti ST by hckr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Ceti ST</h1>
+      <h2 class="project-tagline">A Sublime Text theme to match the Ceti-2 GTK+ theme.</h2>
+      <a href="https://github.com/hckr/ceti-sublime-text" class="btn">View on GitHub</a>
+      <a href="https://github.com/hckr/ceti-sublime-text/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/hckr/ceti-sublime-text/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="ceti-theme" class="anchor" href="#ceti-theme" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ceti Theme</h1>
+
+<p>This is designed to match the <a href="https://github.com/horst3180/Ceti-2-theme">Ceti-2</a> GTK+ theme by <a href="https://horst3180.deviantart.com">horst3180</a>.</p>
+
+<p>This is a mod of <a href="https://github.com/samuelrafo/piatto">piatto</a> by <a href="https://github.com/samuelrafo">samuelrafo</a>.</p>
+
+<h2>
+<a id="design" class="anchor" href="#design" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design</h2>
+
+<p><img src="https://raw.github.com/hckr/ceti-sublime-text/master/images/ceti.png" alt="Ceti Theme"></p>
+
+<p><img src="https://raw.github.com/hckr/ceti-sublime-text/master/images/ceti3.png" alt="Ceti 3 Theme"></p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Ceti theme is designed to work with the latest development builds of Sublime Text, including <a href="http://www.sublimetext.com/dev">Sublime Text 2</a> and <a href="http://www.sublimetext.com/3dev">Sublime Text 3</a>.</p>
+
+<h3>
+<a id="manual-installation" class="anchor" href="#manual-installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Manual Installation</h3>
+
+<p>I have submitted a package to ST's PackageControl, but that is currently pending, so manual installation is the only option at the moment.</p>
+
+<ul>
+<li>Download the latest version on the <a href="https://github.com/hckr/ceti-sublime-text/releases">Releases</a> page</li>
+<li>Extract that folder to where your Sublime packages are located. 
+
+<ul>
+<li>On Linux, they are probably in <code>~/.config/sublime-text-3/Packages</code>. (If you are not sure, in Sublime Text, go to Preferences -&gt; Browse Packages).</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="activating-the-theme" class="anchor" href="#activating-the-theme" aria-hidden="true"><span class="octicon octicon-link"></span></a>Activating the theme</h2>
+
+<p>To configure Sublime Text to use the theme, follow the instructions below for your specific version.</p>
+
+<h3>
+<a id="sublime-text-2" class="anchor" href="#sublime-text-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sublime Text 2</h3>
+
+<ul>
+<li>Open your User Settings Preferences file <code>Sublime Text 2 -&gt; Preferences -&gt; Settings - User</code>
+</li>
+<li>Add (or update) your theme entry to be <code>"theme": "Ceti.sublime-theme"</code>
+</li>
+</ul>
+
+<p><strong>Example Sublime Text 2 User Settings</strong></p>
+
+<pre><code>{
+    "theme": "Ceti.sublime-theme"
+}
+</code></pre>
+
+<h3>
+<a id="sublime-text-3" class="anchor" href="#sublime-text-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sublime Text 3</h3>
+
+<ul>
+<li>Open your User Settings Preferences file <code>Sublime Text -&gt; Preferences -&gt; Settings - User</code>
+</li>
+<li>Add (or update) your theme entry to be <code>"theme": "Ceti 3.sublime-theme"</code>
+</li>
+</ul>
+
+<p><strong>Example Sublime Text 3 User Settings</strong></p>
+
+<pre><code>{
+    "theme": "Ceti 3.sublime-theme"
+}
+</code></pre>
+
+<h3>
+<a id="sidebar-folder-icons" class="anchor" href="#sidebar-folder-icons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sidebar Folder Icons</h3>
+
+<p>Ceti Theme has the ability to use folder icons in the sidebar.</p>
+
+<p>If you'd like to use folder icons in the sidebar instead of the regular arrows, add the following custom setting to your <code>Settings - User</code> file:</p>
+
+<pre><code>"ceti_folder_icons": true
+</code></pre>
+
+<h3>
+<a id="overlay-scrollbars" class="anchor" href="#overlay-scrollbars" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overlay Scrollbars</h3>
+
+<p>If you'd like to use the overlay scrollbar, add the following custom setting to your Settings - User file:</p>
+
+<div class="highlight highlight-javascript"><pre>{
+    <span class="pl-s"><span class="pl-pds">"</span>overlay_scroll_bars<span class="pl-pds">"</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>enabled<span class="pl-pds">"</span></span>
+}</pre></div>
+
+<h2>
+<a id="optional" class="anchor" href="#optional" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optional</h2>
+
+<h3>
+<a id="bold-folder-labels" class="anchor" href="#bold-folder-labels" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bold folder labels</h3>
+
+<div class="highlight highlight-javascript"><pre>{
+    <span class="pl-s"><span class="pl-pds">"</span>bold_folder_labels<span class="pl-pds">"</span></span><span class="pl-k">:</span> <span class="pl-c1">true</span>
+}</pre></div>
+
+<h3>
+<a id="color-scheme" class="anchor" href="#color-scheme" aria-hidden="true"><span class="octicon octicon-link"></span></a>Color Scheme</h3>
+
+<div class="highlight highlight-javascript"><pre>{
+    <span class="pl-s"><span class="pl-pds">"</span>color_scheme<span class="pl-pds">"</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Packages/Theme - Ceti/Ceti.tmTheme<span class="pl-pds">"</span></span>
+}</pre></div>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/hckr/ceti-sublime-text">Ceti ST</a> is maintained by <a href="https://github.com/hckr">hckr</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
