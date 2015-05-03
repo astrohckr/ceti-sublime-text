@@ -14,12 +14,13 @@ This is a mod of [piatto](https://github.com/samuelrafo/piatto) by [samuelrafo](
 
 Ceti theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
 
-### Download Manually
+### Manual Installation
 
-* Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Ceti`
-* Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
-* Copy the folder into your Sublime Text `Packages` directory
+I have submitted a package to ST's PackageControl, but that is currently pending, so manual installation is the only option at the moment.
+
+* Download the latest version on the [Releases](https://github.com/hckr/ceti-sublime-text/releases) page
+* Extract that folder to where your Sublime packages are located. 
+    * On Linux, they are probably in `~/.config/sublime-text-3/Packages`. (If you are not sure, in Sublime Text, go to Preferences -> Browse Packages).
 
 ## Activating the theme
 
