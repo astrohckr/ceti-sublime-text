@@ -14,10 +14,6 @@ This is a mod of [piatto](https://github.com/samuelrafo/piatto) by [samuelrafo](
 
 Ceti theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
 
-### Using Sublime Package Control
-
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Ceti Theme via the `Package Control: Install Package` menu item. The Ceti Theme package is listed as `Theme - Ceti` in the packages list.
-
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
@@ -48,7 +44,7 @@ To configure Sublime Text to use the theme, follow the instructions below for yo
 **Example Sublime Text 3 User Settings**
 
     {
-        "theme": "Ceti Dark 3.sublime-theme"
+        "theme": "Ceti 3.sublime-theme"
     }
 
 ### Sidebar Folder Icons
