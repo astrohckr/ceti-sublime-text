@@ -8,6 +8,8 @@ This is a mod of [piatto](https://github.com/samuelrafo/piatto) by [samuelrafo](
 
 ![Ceti Theme](https://raw.github.com/hckr/ceti-sublime-text/master/images/ceti.png)
 
+![Ceti 3 Theme](https://raw.github.com/hckr/ceti-sublime-text/master/images/ceti3.png)
+
 ## Installation
 
 Ceti theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
