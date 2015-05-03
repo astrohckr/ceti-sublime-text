@@ -83,16 +83,46 @@
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8, 8]
     },
+    // Tab close (inactive)
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive.png",
-        "layer0.opacity": 0.85
+        "layer0.opacity": 1.0
     },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-hover.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-pressed.png",
+        "layer0.opacity": 1.0
+    },
+    // Tab close (active)
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Ceti/Ceti/tab-close.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-hover.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-pressed.png",
         "layer0.opacity": 1.0
     },
     // Tab dirty button
@@ -129,36 +159,6 @@
         "settings": ["highlight_modified_tabs"],
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Ceti/Ceti/tab-highlight.png"
-    },
-    // Tab close button hover
-    {
-        "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-hover.png"
-    },
-    // Tab close button pressed
-    {
-        "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["pressed", "selected"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-pressed.png"
-    },
-
-    // Tab close button hover (inactive tab)
-    {
-        "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-hover.png"
-    },
-
-    // Tab close button pressed (inactive tab)
-    {
-        "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["pressed"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-pressed.png"
     },
 
 //
