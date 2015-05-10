@@ -41,7 +41,8 @@
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - Ceti/Ceti/tab-inactive.png",
         "layer0.inner_margin": [5, 5],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "font.face": "Roboto Thin"
     },
     // Tab close state
     {
