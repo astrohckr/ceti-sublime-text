@@ -36,7 +36,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [12, 3, 12, 3],
+        "content_margin": [0, 0, 0, 0],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - Ceti/Ceti/tab-inactive.png",
@@ -78,7 +78,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
@@ -91,42 +91,42 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-hover.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-hover@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-pressed.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-inactive-pressed@2x.png",
         "layer0.opacity": 1.0
     },
     // Tab close (active)
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-hover.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-hover@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "attributes": ["pressed"],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-close-pressed.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tab-close-pressed@2x.png",
         "layer0.opacity": 1.0
     },
     // Tab dirty button
