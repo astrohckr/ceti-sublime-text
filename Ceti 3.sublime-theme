@@ -149,7 +149,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/tab-dirty.png"
+        "layer0.texture": "Theme - Ceti/Ceti/tab-dirty@2x.png"
     },
     // Tab highlight button
     {
