@@ -205,14 +205,14 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Ceti/Ceti/tabset-list.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tabset-list@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/tabset-list-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/tabset-list-hover@2x.png"
     },
     // Tab scroll left
     {
@@ -624,7 +624,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Ceti/Ceti/file-close.png",
+        "layer0.texture": "Theme - Ceti/Ceti/file-close@2x.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -638,31 +638,31 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Ceti/Ceti/file-dirty.png",
+        "layer0.texture": "Theme - Ceti/Ceti/file-dirty@2x.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/file-dirty-selected.png"
+        "layer0.texture": "Theme - Ceti/Ceti/file-dirty-selected@2x.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/file-close.png"
+        "layer0.texture": "Theme - Ceti/Ceti/file-close@2x.png"
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/file-close-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/file-close-hover@2x.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/file-close-selected.png"
+        "layer0.texture": "Theme - Ceti/Ceti/file-close-selected@2x.png"
     },
 
 //
@@ -673,76 +673,76 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Ceti/Ceti/group-closed.png",
+        "layer0.texture": "Theme - Ceti/Ceti/group-closed@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/group-closed-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/group-closed-hover@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/group-closed-selected.png"
+        "layer0.texture": "Theme - Ceti/Ceti/group-closed-selected@2x.png"
     },
     // Sidebar folder closed
     {
         "class": "disclosure_button_control",
         "settings": ["Ceti_folder_icons"],
-        "layer0.texture": "Theme - Ceti/Ceti/folder-closed.png"
+        "layer0.texture": "Theme - Ceti/Ceti/folder-closed@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["Ceti_folder_icons"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/folder-closed-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/folder-closed-hover@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["Ceti_folder_icons"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/folder-closed-selected.png"
+        "layer0.texture": "Theme - Ceti/Ceti/folder-closed-selected@2x.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Ceti/Ceti/group-open.png"
+        "layer0.texture": "Theme - Ceti/Ceti/group-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/group-open-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/group-open-hover@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/group-open-selected.png"
+        "layer0.texture": "Theme - Ceti/Ceti/group-open-selected@2x.png"
     },
     // Sidebar folder open
     {
         "class": "disclosure_button_control",
         "settings": ["Ceti_folder_icons"],
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Ceti/Ceti/folder-open.png"
+        "layer0.texture": "Theme - Ceti/Ceti/folder-open@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["Ceti_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/folder-open-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/folder-open-hover@2x.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["Ceti_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Ceti/Ceti/folder-open-selected.png"
+        "layer0.texture": "Theme - Ceti/Ceti/folder-open-selected@2x.png"
     },
 
 //
