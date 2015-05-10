@@ -36,7 +36,7 @@
     // Tab element
     {
         "class": "tab_control",
-        "content_margin": [0, 0, 0, 0],
+        "content_margin": [12, 3, 7, 3],
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - Ceti/Ceti/tab-inactive.png",
@@ -218,27 +218,27 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Ceti/Ceti/tabset-left.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tabset-left@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/tabset-left-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/tabset-left-hover@2x.png"
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Ceti/Ceti/tabset-right.png",
+        "layer0.texture": "Theme - Ceti/Ceti/tabset-right@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Ceti/Ceti/tabset-right-hover.png"
+        "layer0.texture": "Theme - Ceti/Ceti/tabset-right-hover@2x.png"
     },
 
 //
@@ -277,7 +277,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Ceti/Ceti/standard-scrollbar-vertical.png",
+        "layer0.texture": "Theme - Ceti/Ceti/standard-scrollbar-vertical@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 6],
         "blur": false
@@ -286,21 +286,21 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Ceti/Ceti/standard-scrollbar-horizontal.png",
+        "layer0.texture": "Theme - Ceti/Ceti/standard-scrollbar-horizontal@2x.png",
         "layer0.inner_margin": [6, 2],
         "blur": false
     },
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Ceti/Ceti/standard-scrollbar-corner.png",
+        "layer0.texture": "Theme - Ceti/Ceti/standard-scrollbar-corner@2x.png",
         "layer0.inner_margin": [2, 2],
         "layer0.opacity": 1.0
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Ceti/Ceti/standard-puck-vertical.png",
+        "layer0.texture": "Theme - Ceti/Ceti/standard-puck-vertical@2x.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 10],
         "content_margin": [8, 12],
@@ -310,7 +310,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Ceti/Ceti/standard-puck-horizontal.png",
+        "layer0.texture": "Theme - Ceti/Ceti/standard-puck-horizontal@2x.png",
         "layer0.inner_margin": [10, 0],
         "content_margin": [12, 8],
         "blur": false
