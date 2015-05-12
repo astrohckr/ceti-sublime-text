@@ -61,7 +61,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "Theme - Ceti/Ceti/tab-active@2x.png",
-        "layer0.inner_margin": [10,-2,5,-2]
+        "layer0.inner_margin": [1,0,1,0]
     },
     // Tab dirty state (close button hidden)
     {
